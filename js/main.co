@@ -1,0 +1,9 @@
+require.config {
+	paths:
+		'jquery':			'lib/jquery'
+		'underscore':	'lib/underscore'
+		'backbone':		'lib/backbone'
+}
+
+require ['core/module'], ->
+	require ['core/app'], ->

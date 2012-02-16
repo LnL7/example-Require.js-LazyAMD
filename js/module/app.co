@@ -1,0 +1,7 @@
+define ['core/sandbox'], (SB) ->
+
+	SB.Event.on 'app:start', ->
+		console.log 'app:start'
+
+	ModuleApp = {
+	}

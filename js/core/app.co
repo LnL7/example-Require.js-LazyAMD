@@ -1,0 +1,6 @@
+define ['core/sandbox'], (SB) ->
+
+	SB.Event.trigger 'app', 'start'
+
+	CoreApp = {
+	}
